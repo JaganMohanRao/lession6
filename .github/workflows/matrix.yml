@@ -8,7 +8,7 @@ jobs:
     name: matrix job run
     strategy:
       matrix:
-        runner: [ubuntu-latest, windows-latest, macos-latest]
+        runner: [ubuntu-latest, windows-latest]
         python-version: [3.11, 3.12, 3.13]
         include:
           - runner: macos-latest
